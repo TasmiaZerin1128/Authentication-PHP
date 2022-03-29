@@ -1,7 +1,7 @@
 # Authentication
 ## Sign Up, Login and Welcome page done with PHP
 
-#Files
+# Files
 ```
 1. Login PHP in Login Folder
 2. Register PHP in Register Folder
