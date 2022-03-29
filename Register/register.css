@@ -1,0 +1,23 @@
+    .page{
+        margin-top: 10px;
+        background-color: #abfae8;
+    }
+    h2{
+        color: #11866b;
+        font-size: 50px;
+    }
+
+    .form{
+    margin-top: 5px;
+    padding: 10px 15px;
+    }
+
+    .main{
+        width: 40%;
+        margin: 0px auto;
+    }
+
+    #fname,#uname, #pswd{
+        padding: 8px;
+    }
+
