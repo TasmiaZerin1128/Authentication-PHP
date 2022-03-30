@@ -22,10 +22,13 @@
          .btn-primary,.btn-primary:hover, .btn-primary:active, .btn-primary:visited{
                background-color: #11866b;
                border:  #11866b !important;
+               margin: 0px 40px;
+               padding: 10px 20px;
          }
-         h2 a, a:hover, a:active, a:visited{
+         button a, a:hover, a:active, a:visited{
             text-decoration: none;
-            color: #11866b;
+            color: white;
+            font-size: 20px
          }
    </style>
    </head>
@@ -37,7 +40,7 @@
             </lord-icon>
             <h4>Welcome <?php echo "<h1>".$_SESSION['username']."</h1>"; ?></h4>
             <br><br><br>
-            <h2><a href = "Login/login.php">Sign Out</a></h2>
+            <button class ="btn btn-primary"><a href = "Login/login.php">Sign Out</a></button>
          </div>
       </div>
    </body>

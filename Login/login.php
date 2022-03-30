@@ -66,6 +66,14 @@
             .form{
                 margin-top: 10px;
                 padding: 10px 15px;
+                box-shadow: 5px;
+                border-color: #11866b;
+            }
+
+            .input{
+                border-radius: 5px;
+                box-shadow: 5px;
+                border-color: #11866b;
             }
 
             .main{
@@ -98,13 +106,13 @@
         
                                 <label for="uname">Username</label>
                                 <br>
-                                <input type="text" id="uname" name="username" placeholder="Enter Username">
+                                <input type="text" class="input" id="uname" name="username" placeholder="Enter Username">
                                 <span class="error"><?php echo $userErr;?></span>
                                 <br><br>
         
                                 <label for="pswd">Password</label>
                                 <br>
-                                <input type="password" id="pswd" name="password" placeholder="Enter Password">
+                                <input type="password" class="input" id="pswd" name="password" placeholder="Enter Password">
                                 <span class="error"><?php echo $pswdErr;?></span>
                                 <br>
                                 <input type="checkbox" onclick="showPswd()" style="margin-top: 10px;"> Show Password

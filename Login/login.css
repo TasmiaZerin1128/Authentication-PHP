@@ -11,6 +11,12 @@ h2{
    padding: 10px 15px;
 }
 
+.input{
+    border-radius: 5px;
+    box-shadow: inset 5px;
+    border: #11866b;
+}
+
 .main{
     width: 40%;
     margin: 120px auto;
